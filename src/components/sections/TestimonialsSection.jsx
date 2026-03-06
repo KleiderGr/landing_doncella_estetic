@@ -49,7 +49,7 @@ export default function TestimonialsSection() {
           className="text-center mt-16"
         >
           <a
-            href="https://www.tiktok.com/@doncellaesthetic1"
+            href="https://www.tiktok.com/@doncellaesthetic1/video/7588631584778079500"
             target="_blank"
             rel="noopener noreferrer"
             className="font-sans text-xs font-light uppercase tracking-[0.2em] text-gray-400 hover:text-brand transition-colors duration-500 ease-in-out"

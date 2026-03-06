@@ -4,88 +4,88 @@
     "title": "Masaje Relajante Cuerpo Completo",
     "duration": "60 min",
     "price_usd": 20,
-    "description": "Libera la tensión acumulada con un masaje de cuerpo completo que revitaliza cuerpo y mente.",
+    "description": "Es el \"botón de reinicio\" que tu cuerpo y mente necesitan. A diferencia del masaje descontracturante (que puede ser doloroso), este se enfoca en movimientos suaves, rítmicos y fluidos para calmar el sistema nervioso.",
     "media_type": "video",
     "media_url": "/assets/MasajeRelajante.mp4",
-    "poster_url": "/assets/MasajeRelajantePiedrasVolcanicas.jpeg"
+    "poster_url": "/assets/logo.webp"
   },
   {
     "id": "srv-02",
-    "title": "Tejido Profundo / Descontracturante",
+    "title": "Masaje Reductor",
     "duration": "60 min",
     "price_usd": 20,
-    "description": "Técnica profunda que alivia contracturas, reduce el dolor muscular y restaura la movilidad.",
+    "description": "Reduce tejido adiposo, desinflama y moldea la figura.",
     "media_type": "image",
-    "media_url": "/assets/MasajeReductor.jpeg"
+    "media_url": "/assets/MasajeReductor.webp"
   },
   {
     "id": "srv-03",
     "title": "Piedras Volcánicas",
     "duration": "90 min",
-    "price_usd": 20,
-    "description": "Terapia con piedras calientes que funde la tensión y activa la circulación profunda.",
+    "price_usd": 25,
+    "description": "Reduce la inflamación y relaja la musculatura profunda, siendo ideal para contracturas y dolores crónicos. El calor tiene un efecto sedante sobre el sistema nervioso, ayudando a combatir la ansiedad y el insomnio.",
     "media_type": "image",
-    "media_url": "/assets/MasajeRelajantePiedrasVolcanicas.jpeg"
+    "media_url": "/assets/MasajeRelajantePiedrasVolcanicas.webp"
   },
   {
     "id": "srv-04",
-    "title": "Reflexología Facial",
+    "title": "Limpieza Facial Profunda",
     "duration": "30 min",
-    "price_usd": 10,
-    "description": "Estimulación de puntos clave del rostro para aliviar cefaleas y renovar la luminosidad.",
+    "price_usd": 20,
+    "description": "Limpia la piel a profundidad, remueve impurezas, puntos negros y signos de envejecimiento  Hidratación profunda de labios.",
     "media_type": "video",
     "media_url": "/assets/ReflexologiaFacial.mp4",
-    "poster_url": "/assets/MasajeMoldeador.jpeg"
+    "poster_url": "/assets/logo.webp"
   },
   {
     "id": "srv-05",
-    "title": "Reflexología Podal",
+    "title": "Levantamiento y Moldeamiento de glúteos",
     "duration": "30 min",
-    "price_usd": 10,
-    "description": "Masaje especializado en pies que desbloquea el flujo energético de todo el cuerpo.",
+    "price_usd": 25,
+    "description": "Reduce Celulitis, movilizando el tejido adiposo hacie el gluteo mayor y dando firmeza al musculo.",
     "media_type": "image",
-    "media_url": "/assets/LevantamientoGluteos.jpg"
+    "media_url": "/assets/LevantamientoGluteos.webp"
   },
   {
     "id": "srv-06",
-    "title": "Masaje de Cuello y Cervical",
+    "title": "Depilación de cuello espalda y axilas",
     "duration": "40 min",
-    "price_usd": 10,
-    "description": "Enfocado en cuello y cervicales para eliminar la rigidez del día a día.",
+    "price_usd": 35,
+    "description": "Es un método de eliminación del vello que lo extrae directamente desde la raíz, lo que permite resultados más duraderos en comparación con el rasurado.",
     "media_type": "video",
     "media_url": "/assets/DepilacionEspaldaCuello.mp4",
-    "poster_url": "/assets/LevantamientoMoldeamiento.jpeg"
+    "poster_url": "/assets/logo.webp"
   },
   {
     "id": "srv-07",
     "title": "Terapia de Ventosas",
     "duration": "N/A",
-    "price_usd": 30,
+    "price_usd": 20,
     "description": "Desintoxicación y desinflamación profunda mediante succión controlada. Ayuda a reducir contracturas, lumbalgias, cervicalgias y molestias crónicas.",
     "media_type": "video",
     "media_url": "/assets/Ventosaterapia.mp4",
-    "poster_url": "/assets/MasajeMoldeador.jpeg",
+    "poster_url": "/assets/logo.webp",
     "isHidden": false
   },
   {
     "id": "srv-08",
     "title": "Epilación con cera",
     "duration": "N/A",
-    "price_usd": 15,
+    "price_usd": 25,
     "description": "Epilación con cera de calidad. Proporciona mayor suavidad y duración, ya que el vello se debilita con el tiempo y crece con menor frecuencia y fuerza. ¡Precio por sesión!",
     "media_type": "image",
-    "media_url": "/assets/BrasilenioBikiniIngleAnoGeniales.jpeg",
+    "media_url": "/assets/BrasilenioBikiniIngleAnoGeniales.webp",
     "isHidden": false
   },
   {
     "id": "srv-09",
     "title": "Maderoterapia Corporal",
     "duration": "N/A",
-    "price_usd": 35,
-    "description": "Maderoterapia Corporal",
+    "price_usd": 20,
+    "description": "Es un tratamiento natural y no invasivo que utiliza instrumentos de madera diseñados anatómicamente para masajear profundamente el cuerpo. Reduce la grasa localizada, combate la celulitis, reafirma la piel y mejora la circulación linfática.",
     "media_type": "video",
     "media_url": "/assets/MaderoterapiaCorporal.mp4",
-    "poster_url": "/assets/MasajeRelajantePiedrasVolcanicas.jpeg",
+    "poster_url": "/assets/logo.webp",
     "isHidden": false
   }
 ]
