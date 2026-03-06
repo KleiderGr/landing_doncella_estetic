@@ -31,8 +31,6 @@ export default function OptimizedVideo({
     }
   }, [isIntersecting])
 
-  const isProd = import.meta.env.PROD
-
   return (
     <div
       ref={observerRef}
@@ -41,8 +39,8 @@ export default function OptimizedVideo({
     >
       <video
         ref={videoRef}
-        src={isProd ? `/assets/${src}` : `/src/assets/${src}`}
-        poster={isProd ? `/assets/${poster}` : `/src/assets/${poster}`}
+        src={src}
+        poster={poster}
         muted
         loop
         playsInline

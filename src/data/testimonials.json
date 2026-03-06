@@ -4,15 +4,15 @@
     "client_name": "María G.",
     "review": "Excelente atención y resultados visibles desde la primera sesión. ¡Totalmente recomendado!",
     "media_type": "video",
-    "media_url": "/ExtraccionComedones.mp4",
-    "poster_url": "/MasajeMoldeador.jpeg"
+    "media_url": "/assets/ExtraccionComedones.mp4",
+    "poster_url": "/assets/MasajeMoldeador.jpeg"
   },
   {
     "id": "test-02",
     "client_name": "Andreina P.",
     "review": "Recomendado 100%, gran profesionalismo y un ambiente súper relajante.",
     "media_type": "video",
-    "media_url": "/MaderoterapiaCorporal.mp4",
-    "poster_url": "/LevantamientoMoldeamiento.jpeg"
+    "media_url": "/assets/MaderoterapiaCorporal.mp4",
+    "poster_url": "/assets/LevantamientoMoldeamiento.jpeg"
   }
 ]
