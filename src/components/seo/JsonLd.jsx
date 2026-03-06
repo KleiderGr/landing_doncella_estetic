@@ -8,9 +8,9 @@ export default function JsonLd() {
     '@context': 'https://schema.org',
     '@type': 'HealthAndBeautyBusiness',
     name: 'Doncella Estetic',
-    image: 'https://doncella-estetic.vercel.app/src/assets/logo.webp',
+    image: 'https://doncella-estetic.vercel.app/assets/logo.webp',
     url: 'https://doncella-estetic.vercel.app',
-    telephone: '+58-412-1234567',
+    telephone: '+58-414-2019572',
     email: 'info@doncellaestetic.com',
     description:
       'Centro de estética premium en Caracas especializado en masajes relajantes, reflexología, piedras volcánicas, terapia de ventosas y tratamientos corporales.',

@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
-import logo from '@/assets/logo.webp'
+
+const logo = '/assets/logo.webp'
 
 const NAV_LINKS = [
   { label: 'Servicios', href: '#servicios' },

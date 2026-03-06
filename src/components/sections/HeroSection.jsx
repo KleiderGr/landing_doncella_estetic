@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { ChevronDown } from 'lucide-react'
-import logo from '@/assets/logo.webp'
+
+const logo = '/assets/logo.webp'
 
 /**
  * Hero Section — full screen, centered serif typography, luxury aesthetic.

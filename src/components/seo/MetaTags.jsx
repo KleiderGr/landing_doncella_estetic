@@ -8,7 +8,7 @@ export default function MetaTags() {
   const description =
     'Masajes relajantes, reflexología, piedras volcánicas y tratamientos corporales. Agenda tu cita hoy en el centro de estética más exclusivo de Caracas, Venezuela.'
   const url = 'https://doncella-estetic.vercel.app'
-  const image = 'https://doncella-estetic.vercel.app/src/assets/logo.webp'
+  const image = 'https://doncella-estetic.vercel.app/assets/logo.webp'
 
   return (
     <Helmet>
