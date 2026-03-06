@@ -1,5 +1,5 @@
-import { useRef, useEffect } from 'react'
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver'
+import { useEffect, useRef } from 'react'
 
 /**
  * Optimized video component:
@@ -31,6 +31,8 @@ export default function OptimizedVideo({
     }
   }, [isIntersecting])
 
+  const isProd = import.meta.env.PROD
+
   return (
     <div
       ref={observerRef}
@@ -39,8 +41,8 @@ export default function OptimizedVideo({
     >
       <video
         ref={videoRef}
-        src={src}
-        poster={poster}
+        src={isProd ? `/assets/${src}` : `/src/assets/${src}`}
+        poster={isProd ? `/assets/${poster}` : `/src/assets/${poster}`}
         muted
         loop
         playsInline

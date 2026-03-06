@@ -1,3 +1,4 @@
+
 [
   {
     "id": "srv-01",
@@ -6,8 +7,8 @@
     "price_usd": 20,
     "description": "Libera la tensión acumulada con un masaje de cuerpo completo que revitaliza cuerpo y mente.",
     "media_type": "video",
-    "media_url": "/src/assets/MasajeRelajante.mp4",
-    "poster_url": "/src/assets/MasajeRelajantePiedrasVolcanicas.jpeg"
+    "media_url": "/MasajeRelajante.mp4",
+    "poster_url": "/MasajeRelajantePiedrasVolcanicas.jpeg"
   },
   {
     "id": "srv-02",
@@ -16,7 +17,7 @@
     "price_usd": 20,
     "description": "Técnica profunda que alivia contracturas, reduce el dolor muscular y restaura la movilidad.",
     "media_type": "image",
-    "media_url": "/src/assets/MasajeReductor.jpeg"
+    "media_url": "/MasajeReductor.jpeg"
   },
   {
     "id": "srv-03",
@@ -25,7 +26,7 @@
     "price_usd": 20,
     "description": "Terapia con piedras calientes que funde la tensión y activa la circulación profunda.",
     "media_type": "image",
-    "media_url": "/src/assets/MasajeRelajantePiedrasVolcanicas.jpeg"
+    "media_url": "/MasajeRelajantePiedrasVolcanicas.jpeg"
   },
   {
     "id": "srv-04",
@@ -34,8 +35,8 @@
     "price_usd": 10,
     "description": "Estimulación de puntos clave del rostro para aliviar cefaleas y renovar la luminosidad.",
     "media_type": "video",
-    "media_url": "/src/assets/ReflexologiaFacial.mp4",
-    "poster_url": "/src/assets/MasajeMoldeador.jpeg"
+    "media_url": "/ReflexologiaFacial.mp4",
+    "poster_url": "/MasajeMoldeador.jpeg"
   },
   {
     "id": "srv-05",
@@ -44,7 +45,7 @@
     "price_usd": 10,
     "description": "Masaje especializado en pies que desbloquea el flujo energético de todo el cuerpo.",
     "media_type": "image",
-    "media_url": "/src/assets/LevantamientoGluteos.jpg"
+    "media_url": "/LevantamientoGluteos.jpg"
   },
   {
     "id": "srv-06",
@@ -53,8 +54,8 @@
     "price_usd": 10,
     "description": "Enfocado en cuello y cervicales para eliminar la rigidez del día a día.",
     "media_type": "video",
-    "media_url": "/src/assets/DepilacionEspaldaCuello.mp4",
-    "poster_url": "/src/assets/LevantamientoMoldeamiento.jpeg"
+    "media_url": "/DepilacionEspaldaCuello.mp4",
+    "poster_url": "/LevantamientoMoldeamiento.jpeg"
   },
   {
     "id": "srv-07",
@@ -63,7 +64,7 @@
     "price_usd": 30,
     "description": "Desintoxicación y desinflamación profunda mediante succión controlada. Ayuda a reducir contracturas, lumbalgias, cervicalgias y molestias crónicas.",
     "media_type": "video",
-    "media_url": "/src/assets/Ventosaterapia.mp4",
+    "media_url": "/Ventosaterapia.mp4",
     "isHidden": false
   },
   {
@@ -73,7 +74,7 @@
     "price_usd": 15,
     "description": "Epilación con cera de calidad. Proporciona mayor suavidad y duración, ya que el vello se debilita con el tiempo y crece con menor frecuencia y fuerza. ¡Precio por sesión!",
     "media_type": "image",
-    "media_url": "/src/assets/BrasilenioBikiniIngleAnoGeniales.jpeg",
+    "media_url": "/BrasilenioBikiniIngleAnoGeniales.jpeg",
     "isHidden": false
   },
   {
@@ -83,8 +84,8 @@
     "price_usd": 35,
     "description": "Maderoterapia Corporal",
     "media_type": "video",
-    "media_url": "/src/assets/MaderoterapiaCorporal.mp4",
-    "poster_url": "/src/assets/MaderoterapiaCorporal.jpg",
+    "media_url": "/MaderoterapiaCorporal.mp4",
+    "poster_url": "/MaderoterapiaCorporal.jpg",
     "isHidden": false
   }
 ]

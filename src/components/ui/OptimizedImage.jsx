@@ -12,18 +12,19 @@ export default function OptimizedImage({
 }) {
   const [loaded, setLoaded] = useState(false)
 
+  const isProd = import.meta.env.PROD
+
   return (
     <img
-      src={src}
+      src={isProd ? `/assets/${src}` : `/src/assets/${src}`}
       alt={alt}
       width={width}
       height={height}
       loading="lazy"
       decoding="async"
       onLoad={() => setLoaded(true)}
-      className={`w-full h-full object-cover transition-opacity duration-500 ease-in-out ${
-        loaded ? 'opacity-100' : 'opacity-0'
-      } ${className}`}
+      className={`w-full h-full object-cover transition-opacity duration-500 ease-in-out ${loaded ? 'opacity-100' : 'opacity-0'
+        } ${className}`}
     />
   )
 }
