@@ -20,7 +20,16 @@ export default function Header() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  const handleNavClick = () => setIsOpen(false)
+  const handleNavClick = (e) => {
+    e.preventDefault()
+    const href = e.currentTarget.getAttribute('href')
+    setIsOpen(false)
+    // Delay scroll until the drawer exit animation clears the layout
+    setTimeout(() => {
+      const target = document.querySelector(href)
+      if (target) target.scrollIntoView({ behavior: 'smooth' })
+    }, 150)
+  }
 
   return (
     <header
