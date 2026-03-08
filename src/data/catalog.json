@@ -29,10 +29,10 @@
   },
   {
     "id": "srv-04",
-    "title": "Limpieza Facial Profunda",
+    "title": "Reflexología Facial",
     "duration": "30 min",
     "price_usd": 20,
-    "description": "Limpia la piel a profundidad, remueve impurezas, puntos negros y signos de envejecimiento  Hidratación profunda de labios.",
+    "description": "Limpia la piel a profundidad, remueve impurezas, puntos negros y signos de envejecimiento. Hidratación profunda de labios. Estimulación de puntos clave del rostro para aliviar cefaleas y renovar la luminosidad.",
     "media_type": "video",
     "media_url": "/assets/ReflexologiaFacial.mp4",
     "poster_url": "/assets/logo.webp"
