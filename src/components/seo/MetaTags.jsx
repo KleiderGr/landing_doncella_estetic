@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet-async'
  * Injects dynamic <head> meta tags for SEO and social sharing.
  */
 export default function MetaTags() {
-  const title = 'Doncella Estetic — Centro de Estética Premium en Caracas'
+  const title = 'Doncella Estetic — Centro de Estética Especializada en Caracas'
   const description =
     'Masajes relajantes, reflexología, piedras volcánicas y tratamientos corporales. Agenda tu cita hoy en el centro de estética más exclusivo de Caracas, Venezuela.'
   const url = 'https://doncella-estetic.vercel.app'

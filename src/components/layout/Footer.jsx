@@ -16,7 +16,7 @@ export default function Footer() {
                 Doncella Estetic
               </span>
               <p className="font-sans text-xs font-light uppercase tracking-[0.3em] text-white/30 mt-1">
-                Centro de Estética Premium
+                Centro de Estética Especializada
               </p>
             </div>
           </div>

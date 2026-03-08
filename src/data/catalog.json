@@ -64,8 +64,7 @@
     "description": "Desintoxicación y desinflamación profunda mediante succión controlada. Ayuda a reducir contracturas, lumbalgias, cervicalgias y molestias crónicas.",
     "media_type": "video",
     "media_url": "/assets/Ventosaterapia.mp4",
-    "poster_url": "/assets/logo.webp",
-    "isHidden": false
+    "poster_url": "/assets/logo.webp"
   },
   {
     "id": "srv-08",
@@ -74,8 +73,7 @@
     "price_usd": 25,
     "description": "Epilación con cera de calidad. Proporciona mayor suavidad y duración, ya que el vello se debilita con el tiempo y crece con menor frecuencia y fuerza. ¡Precio por sesión!",
     "media_type": "image",
-    "media_url": "/assets/BrasilenioBikiniIngleAnoGeniales.webp",
-    "isHidden": false
+    "media_url": "/assets/BrasilenioBikiniIngleAnoGeniales.webp"
   },
   {
     "id": "srv-09",
@@ -85,7 +83,6 @@
     "description": "Es un tratamiento natural y no invasivo que utiliza instrumentos de madera diseñados anatómicamente para masajear profundamente el cuerpo. Reduce la grasa localizada, combate la celulitis, reafirma la piel y mejora la circulación linfática.",
     "media_type": "video",
     "media_url": "/assets/MaderoterapiaCorporal.mp4",
-    "poster_url": "/assets/logo.webp",
-    "isHidden": false
+    "poster_url": "/assets/logo.webp"
   }
 ]

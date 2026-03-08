@@ -13,7 +13,7 @@ export default function JsonLd() {
     telephone: '+58-414-2019572',
     email: 'info@doncellaestetic.com',
     description:
-      'Centro de estética premium en Caracas especializado en masajes relajantes, reflexología, piedras volcánicas, terapia de ventosas y tratamientos corporales.',
+      'Centro de estética Especializada en Caracas especializado en masajes relajantes, reflexología, piedras volcánicas, terapia de ventosas y tratamientos corporales.',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Dirección exacta del local',

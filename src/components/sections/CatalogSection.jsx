@@ -8,7 +8,7 @@ import { useMemo, useState } from 'react'
  * Massive luxury spacing, responsive grid with large gaps.
  */
 export default function CatalogSection() {
-  const [sortBy, setSortBy] = useState('price-desc')
+  const [sortBy, setSortBy] = useState('price-asc')
 
   const sortedCatalogData = useMemo(() => catalogData.filter(x => !x.isHidden).sort((a, b) => sortBy === 'price-desc' ? b.price_usd - a.price_usd : a.price_usd - b.price_usd), [sortBy])
 
@@ -41,7 +41,7 @@ export default function CatalogSection() {
           {/* SortBy */}
           <div className="mb-12 col-span-full m-auto">
             <p className="font-sans text-sm font-light uppercase tracking-[0.35em] text-brand mb-6">Ordenar por</p>
-            <select name="sortBy" className="w-80 bg-white text-gray-900 border border-gray-200 rounded-md px-6 py-2 cursor-pointer" onChange={(e) => setSortBy(e.target.value)}>
+            <select name="sortBy" value={sortBy} className="w-80 bg-white text-gray-900 border border-gray-200 rounded-md px-6 py-2 cursor-pointer" onChange={(e) => setSortBy(e.target.value)}>
               <option value="price-desc">Precio más alto</option>
               <option value="price-asc">Precio más bajo</option>
             </select>

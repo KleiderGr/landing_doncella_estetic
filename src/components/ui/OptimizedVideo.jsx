@@ -55,12 +55,10 @@ export default function OptimizedVideo({
   const handleVideo = () => {
     if (!videoRef.current) return;
 
-
+    videoRef.current.currentTime = videoRef.current.currentTime == 0 ? initFromSec : videoRef.current.currentTime
     if (videoRef.current.paused) {
-      videoRef.current.currentTime = videoRef.current.currentTime == 0 ? initFromSec : videoRef.current.currentTime
       videoRef.current.play()
     } else {
-      videoRef.current.currentTime = videoRef.current.currentTime == 0 ? initFromSec : videoRef.current.currentTime
       videoRef.current.pause()
     }
     setIsVideoPaused(videoRef.current.paused)

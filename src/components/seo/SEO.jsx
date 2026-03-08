@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async'
 
 const DEFAULTS = {
-  title: 'Doncella Estetic — Centro de Estética Premium en Caracas',
+  title: 'Doncella Estetic — Centro de Estética Especializada en Caracas',
   description:
     'Masajes relajantes, reflexología, piedras volcánicas y tratamientos corporales. Agenda tu cita hoy en el centro de estética más exclusivo de Caracas, Venezuela.',
   url: 'https://doncellaesteticve.vercel.app',
@@ -17,7 +17,7 @@ const jsonLdSchema = {
   telephone: '+58-414-2019572',
   email: 'info@doncellaestetic.com',
   description:
-    'Centro de estética premium en Caracas especializado en masajes relajantes, reflexología, piedras volcánicas, terapia de ventosas y tratamientos corporales.',
+    'Centro de estética Especializada en Caracas especializado en masajes relajantes, reflexología, piedras volcánicas, terapia de ventosas y tratamientos corporales.',
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Dirección exacta del local',

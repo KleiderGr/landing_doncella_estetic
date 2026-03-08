@@ -45,7 +45,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="font-sans text-xs font-light uppercase tracking-[0.35em] text-brand mb-8"
         >
-          Centro de Estética Premium — Caracas
+          Centro de Estética Especializada — Caracas
         </motion.p>
 
         {/* Heading */}

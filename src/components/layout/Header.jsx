@@ -37,7 +37,7 @@ export default function Header() {
             alt="Doncella Estetic"
             width={40}
             height={40}
-            className={`mix-blend-multiply group-hover:scale-125 transition-all duration-500 ease-in-out rounded-full ${scrolled ? 'md:opacity-0 md:ml-[-50px]' : 'opacity-0 lg:opacity-100'}`}
+            className={`mix-blend-multiply group-hover:scale-125 transition-all duration-500 ease-in-out rounded-full `}
           />
           <div className={`transition-all duration-500 ease-in-out ${scrolled ? 'opacity-100 lg:opacity-100' : 'opacity-0 lg:opacity-100'}`}>
             <span className="font-serif text-lg font-light tracking-widest uppercase text-gray-900">

@@ -54,7 +54,7 @@ export default function TestimonialsSection() {
             rel="noopener noreferrer"
             className="font-sans text-xs font-light uppercase tracking-[0.2em] text-gray-400 hover:text-brand transition-colors duration-500 ease-in-out"
           >
-            Ver más reseñas en Tiktok →
+            Ver más en Tiktok →
           </a>
         </motion.div>
       </div>
