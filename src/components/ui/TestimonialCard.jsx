@@ -1,12 +1,12 @@
-import { motion } from 'framer-motion'
-import OptimizedVideo from './OptimizedVideo'
-import { Star } from 'lucide-react'
+import { motion } from 'framer-motion';
+import { Star } from 'lucide-react';
+import OptimizedVideo from './OptimizedVideo';
 
 /**
  * Luxury testimonial card with client video review.
  */
 export default function TestimonialCard({ testimonial, index = 0 }) {
-  const { client_name, review, media_url, poster_url } = testimonial
+  const { client_name, review, media_url, poster_url, controls, initFromSec } = testimonial
 
   return (
     <motion.article
@@ -18,7 +18,9 @@ export default function TestimonialCard({ testimonial, index = 0 }) {
     >
       {/* Video */}
       <OptimizedVideo
+        controls={controls}
         src={media_url}
+        initFromSec={initFromSec}
         poster={poster_url}
         aspectRatio="9 / 16"
         className="max-h-[480px]"

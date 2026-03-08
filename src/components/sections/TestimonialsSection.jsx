@@ -21,7 +21,7 @@ export default function TestimonialsSection() {
             Testimonios
           </p>
           <h2 className="font-serif text-4xl sm:text-5xl font-light text-gray-900 mb-6">
-            Lo Que Dicen Nuestras Clientas
+            Lo Que Dicen Nuestros Clientes
           </h2>
           <p className="font-sans text-base font-light text-gray-500 max-w-lg mx-auto leading-relaxed">
             Resultados reales de personas reales. Mira las experiencias de quienes ya confían en nosotras.

@@ -1,10 +1,10 @@
 [
   {
     "id": "srv-01",
-    "title": "Masaje Relajante Cuerpo Completo",
+    "title": "Tejido Profundo / Descontracturante",
     "duration": "60 min",
     "price_usd": 20,
-    "description": "Es el \"botón de reinicio\" que tu cuerpo y mente necesitan. A diferencia del masaje descontracturante (que puede ser doloroso), este se enfoca en movimientos suaves, rítmicos y fluidos para calmar el sistema nervioso.",
+    "description": "Técnica profunda que alivia contracturas, reduce el dolor muscular y restaura la movilidad.",
     "media_type": "video",
     "media_url": "/assets/MasajeRelajante.mp4",
     "poster_url": "/assets/logo.webp"
@@ -32,7 +32,7 @@
     "title": "Reflexología Facial",
     "duration": "30 min",
     "price_usd": 20,
-    "description": "Limpia la piel a profundidad, remueve impurezas, puntos negros y signos de envejecimiento. Hidratación profunda de labios. Estimulación de puntos clave del rostro para aliviar cefaleas y renovar la luminosidad.",
+    "description": "Estimulación de puntos clave del rostro para aliviar cefaleas y renovar la luminosidad.",
     "media_type": "video",
     "media_url": "/assets/ReflexologiaFacial.mp4",
     "poster_url": "/assets/logo.webp"
@@ -40,7 +40,7 @@
   {
     "id": "srv-05",
     "title": "Levantamiento y Moldeamiento de glúteos",
-    "duration": "30 min",
+    "duration": "60 min",
     "price_usd": 25,
     "description": "Reduce Celulitis, movilizando el tejido adiposo hacie el gluteo mayor y dando firmeza al musculo.",
     "media_type": "image",
@@ -69,7 +69,7 @@
   },
   {
     "id": "srv-08",
-    "title": "Epilación con cera",
+    "title": "Epilación con cera brasileño",
     "duration": "N/A",
     "price_usd": 25,
     "description": "Epilación con cera de calidad. Proporciona mayor suavidad y duración, ya que el vello se debilita con el tiempo y crece con menor frecuencia y fuerza. ¡Precio por sesión!",

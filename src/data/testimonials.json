@@ -1,18 +1,21 @@
 [
-  {
+    {
     "id": "test-01",
-    "client_name": "María G.",
-    "review": "Visité Doncella Aesthetic por primera vez para realizarme una depilación corporal completa con cera, abarcando el área del bozo, las axilas y las piernas completas. La experiencia superó mis expectativas. Me encantó el trato profesional y cuidadoso que recibí durante todo el proceso. Es un espacio donde te hacen sentir cómoda desde el primer momento. Quedé muy satisfecha con los resultados de mi depilación y, sin duda alguna, recomiendo sus servicios al cien por ciento para cualquier persona que busque calidad y una excelente atención.",
+    "client_name": "Sindy P.",
+    "review": "Masajes de glúteos sin dolor. Una experiencia fantástica con resultados notorios. ¡100% recomendada!",
     "media_type": "video",
-    "media_url": "/assets/testimonio1.mp4",
-    "poster_url": "/assets/logo.webp"
+    "controls": true,
+    "initFromSec": 3,
+    "media_url": "/assets/testimonio2.mp4",
+    "poster_url": "/assets/testimonio2.webp"
   },
   {
     "id": "test-02",
-    "client_name": "Andreina P.",
-    "review": "Estoy amando los resultados de mi limpieza facial. El servicio fue excelente y la atención espectacular en todo momento. Recomiendo al 100% que se animen a apartar una cita, les aseguro que no se van a arrepentir. El trato profesional superó mis expectativas y quedé totalmente encantada con el cambio en mi piel. Es una experiencia que vale la pena y súper recomendada para quienes buscan resultados reales.",
+    "client_name": "Yan A.",
+    "review": "Increíble limpieza facial. Llegué con estrés y salí en paz. Excelente atención y ambiente. 100% Recomendado",
     "media_type": "video",
-    "media_url": "/assets/testimonio2.mp4",
-    "poster_url": "/assets/logo.webp"
+    "controls": true,
+    "media_url": "/assets/testimonio1.mp4",
+    "poster_url": "/assets/testimonio1.webp"
   }
 ]
