@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { MapPin, Phone, MessageCircle, Instagram, Clock, ArrowUpRight } from 'lucide-react'
+import { MapPin, Phone, MessageCircle, Instagram, Clock } from 'lucide-react'
 
 const CONTACT_INFO = {
   phone: '+ 58 414-2019572',
@@ -11,7 +11,7 @@ const CONTACT_INFO = {
 }
 
 /**
- * Contact Section — luxury spacing, brand-accent outline buttons.
+ * Contact Section — luxury spacing, monochrome CTA buttons.
  */
 export default function ContactSection() {
   return (
@@ -74,7 +74,7 @@ export default function ContactSection() {
             </div>
           </motion.div>
 
-          {/* CTA column */}
+          {/* CTA column — monochrome buttons */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -87,7 +87,7 @@ export default function ContactSection() {
               href={CONTACT_INFO.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-3 py-4 border border-[#25D366] text-[#25D366] font-sans text-xs font-light uppercase tracking-[0.25em] hover:bg-[#25D366] hover:text-white! transition-all duration-500 ease-in-out"
+              className="flex items-center justify-center gap-3 py-4 border border-gray-900 text-gray-900 font-sans text-xs font-light uppercase tracking-[0.25em] hover:bg-gray-900 hover:text-white! transition-all duration-500 ease-in-out"
             >
               <MessageCircle className="w-4 h-4" strokeWidth={1} />
               WhatsApp
@@ -98,7 +98,7 @@ export default function ContactSection() {
               href={CONTACT_INFO.instagram}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-3 py-4 border border-brand text-brand font-sans text-xs font-light uppercase tracking-[0.25em] hover:bg-brand hover:text-white! transition-all duration-500 ease-in-out"
+              className="flex items-center justify-center gap-3 py-4 border border-gray-900 text-gray-900 font-sans text-xs font-light uppercase tracking-[0.25em] hover:bg-gray-900 hover:text-white! transition-all duration-500 ease-in-out"
             >
               <Instagram className="w-4 h-4" strokeWidth={1} />
               Instagram
@@ -109,9 +109,9 @@ export default function ContactSection() {
               href={CONTACT_INFO.mapsUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-3 py-4 border border-gray-200 text-gray-500 font-sans text-xs font-light uppercase tracking-[0.25em] hover:border-brand hover:text-brand transition-all duration-500 ease-in-out"
+              className="flex items-center justify-center gap-3 py-4 border border-gray-900 text-gray-900 font-sans text-xs font-light uppercase tracking-[0.25em] hover:bg-gray-900 hover:text-white! transition-all duration-500 ease-in-out"
             >
-              <ArrowUpRight className="w-4 h-4" strokeWidth={1} />
+              <MapPin className="w-4 h-4" strokeWidth={1} />
               Ver en Google Maps
             </a>
           </motion.div>

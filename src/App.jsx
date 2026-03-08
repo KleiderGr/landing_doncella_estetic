@@ -2,10 +2,10 @@ import { lazy, Suspense } from 'react'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import HeroSection from '@/components/sections/HeroSection'
-import MetaTags from '@/components/seo/MetaTags'
-import JsonLd from '@/components/seo/JsonLd'
+import SEO from '@/components/seo/SEO'
 
 /* Lazy load below-fold sections */
+const EstheticianProfile = lazy(() => import('@/components/sections/EstheticianProfile'))
 const CatalogSection = lazy(() => import('@/components/sections/CatalogSection'))
 const TestimonialsSection = lazy(() => import('@/components/sections/TestimonialsSection'))
 const ContactSection = lazy(() => import('@/components/sections/ContactSection'))
@@ -22,12 +22,15 @@ function SectionSkeleton() {
 export default function App() {
   return (
     <>
-      <MetaTags />
-      <JsonLd />
+      <SEO />
       <Header />
 
       <main>
         <HeroSection />
+
+        <Suspense fallback={<SectionSkeleton />}>
+          <EstheticianProfile />
+        </Suspense>
 
         <Suspense fallback={<SectionSkeleton />}>
           <CatalogSection />

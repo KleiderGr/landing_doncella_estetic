@@ -3,7 +3,7 @@ import { Star } from 'lucide-react';
 import OptimizedVideo from './OptimizedVideo';
 
 /**
- * Luxury testimonial card with client video review.
+ * Luxury testimonial card — uniform 4:5 aspect video, editorial typography.
  */
 export default function TestimonialCard({ testimonial, index = 0 }) {
   const { client_name, review, media_url, poster_url, controls, initFromSec } = testimonial
@@ -16,14 +16,13 @@ export default function TestimonialCard({ testimonial, index = 0 }) {
       transition={{ duration: 0.8, delay: index * 0.15, ease: 'easeOut' }}
       className="flex flex-col bg-white border border-gray-100"
     >
-      {/* Video */}
+      {/* Video — uniform 4:5 aspect */}
       <OptimizedVideo
         controls={controls}
         src={media_url}
         initFromSec={initFromSec}
         poster={poster_url}
-        aspectRatio="9 / 16"
-        className="max-h-[480px]"
+        aspectRatio="4 / 5"
       />
 
       {/* Content */}

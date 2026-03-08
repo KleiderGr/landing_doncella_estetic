@@ -24,7 +24,7 @@ export default function CatalogSection() {
           className="text-center mb-20"
         >
           <p className="font-sans text-sm font-light uppercase tracking-[0.35em] text-brand mb-6">
-            Nuestro Menú
+            Nuestro Catálogo
           </p>
           <h2 className="font-serif text-4xl sm:text-5xl font-light text-gray-900 mb-6">
             Servicios & Tratamientos
